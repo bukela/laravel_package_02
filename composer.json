@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "mirko\\testera\\": "src"
+            "Mirko\\Testera\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "mirko\\testera\\": "tests"
+            "Mirko\\Testera\\": "tests"
         }
     },
     "extra": {

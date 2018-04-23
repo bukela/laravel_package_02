@@ -21,6 +21,9 @@ class TesteraServiceProvider extends ServiceProvider
             __DIR__.'/views' => base_path('resouces/views') 
         ]);
         $this->publishes([
+            __DIR__.'/controllers' => base_path('app/Http/Controllers') 
+        ]);
+        $this->publishes([
             __DIR__.'/migrations' => database_path('migrations') 
         ], 'migrations');  //must specify type 'migrations'
     }

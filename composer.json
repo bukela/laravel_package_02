@@ -38,10 +38,7 @@
             "laravel": {
                 "providers": [
                     "Mirko\\Testera\\TesteraServiceProvider"
-                ],
-                "aliases": {
-                    "Testera": "Mirko\\Testera\\TesteraFacade"
-                }
+                ]
             }
     },
     "config": {

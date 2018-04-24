@@ -1,6 +1,7 @@
 <?php
 
 namespace Mirko\Testera;
+use DB;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 

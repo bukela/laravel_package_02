@@ -1,3 +1,3 @@
 <?php
 
-Route::get('products', 'TesteraController@index');
+Route::get('products', 'Mirko\Testera\TesteraController@index');
